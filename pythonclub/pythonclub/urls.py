@@ -22,4 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('clubapp/', include('clubapp.urls')),
     path('', views.index, name='index'),
+    path('resources', views.resource, name='resource'),
+
 ]
